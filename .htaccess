@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^([0-9a-zA-Z-_]+)_([0-9a-zA-Z-_]+).html$ mp3.php?id=$2 [L,QSA]
+
+ErrorDocument 404 /404.php
+
+
+
